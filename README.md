@@ -7,7 +7,10 @@ A Python script for searching for e-mails in mbox mailboxes. Searching is via qu
 Usage is:
 
     mail_trawl.py [-h] query_file [mbox_file]
-    
+
+The output is a series of lines, in CSV format, containing the contents of the following fields: From, To, Cc, Date, 
+subject.
+
 The JSON query_file has the following format:
 
     [
